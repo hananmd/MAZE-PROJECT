@@ -1,0 +1,689 @@
+=== Maze of UCSC Game Log ===
+ASSUMPTION: Initializing 3D maze structure: 3 floors, 10x25 cells per floor
+WARNING: Multiple poles detected at position [5,24] - floors 2->0 and 1->0
+WARNING: Multiple poles detected at position [5,24] - floors 2->0 and 2->1
+WARNING: Multiple poles detected at position [5,24] - floors 1->0 and 2->1
+ASSUMPTION: When multiple poles present, player will slide down from highest floor first
+TRIM: Cell [0,9,20] removed from wall - overlaps Bawana interior
+TRIM: Cell [0,9,21] removed from wall - overlaps Bawana interior
+TRIM: Cell [0,9,22] removed from wall - overlaps Bawana interior
+TRIM: Cell [0,9,23] removed from wall - overlaps Bawana interior
+TRIM: Cell [0,6,14] removed from wall - overlaps starting area
+TRIM: Cell [0,7,14] removed from wall - overlaps starting area
+TRIM: Cell [0,8,14] removed from wall - overlaps starting area
+TRIM: Cell [0,9,14] removed from wall - overlaps starting area
+SANITIZATION COMPLETE: Processed 7 walls -> 8 trimmed cells, 5 walls kept intact, 0 new segments created, final count: 5 walls
+ASSUMPTION: Blocked cell [1,3,5] for stair floor skipping prevention (start coordinates)
+ASSUMPTION: Blocked cell [1,7,8] for stair floor skipping prevention (end coordinates)
+WARNING: Movement blocked by vertical wall at floor 1 from [5,10] to [6,10]
+WARNING: Movement blocked by vertical wall at floor 1 from [5,11] to [6,11]
+WARNING: Movement blocked by vertical wall at floor 0 from [4,15] to [3,15]
+WARNING: Movement blocked by vertical wall at floor 1 from [5,12] to [6,12]
+WARNING: Movement blocked by vertical wall at floor 0 from [4,16] to [3,16]
+WARNING: Movement blocked by vertical wall at floor 0 from [3,15] to [4,15]
+WARNING: Movement blocked by vertical wall at floor 0 from [4,17] to [3,17]
+WARNING: Movement blocked by vertical wall at floor 1 from [6,10] to [5,10]
+WARNING: Movement blocked by vertical wall at floor 1 from [5,13] to [6,13]
+WARNING: Movement blocked by vertical wall at floor 0 from [3,16] to [4,16]
+WARNING: Movement blocked by vertical wall at floor 0 from [4,18] to [3,18]
+WARNING: Movement blocked by vertical wall at floor 1 from [6,11] to [5,11]
+WARNING: Movement blocked by vertical wall at floor 0 from [3,17] to [4,17]
+WARNING: Movement blocked by vertical wall at floor 1 from [6,12] to [5,12]
+WARNING: Movement blocked by vertical wall at floor 1 from [5,10] to [6,10]
+WARNING: Movement blocked by vertical wall at floor 1 from [5,11] to [6,11]
+WARNING: Movement blocked by vertical wall at floor 0 from [4,15] to [3,15]
+WARNING: Movement blocked by vertical wall at floor 1 from [5,12] to [6,12]
+WARNING: Movement blocked by vertical wall at floor 0 from [4,16] to [3,16]
+WARNING: Movement blocked by vertical wall at floor 0 from [3,15] to [4,15]
+WARNING: Movement blocked by vertical wall at floor 0 from [4,17] to [3,17]
+WARNING: Movement blocked by vertical wall at floor 1 from [6,10] to [5,10]
+WARNING: Movement blocked by vertical wall at floor 1 from [5,13] to [6,13]
+WARNING: Movement blocked by vertical wall at floor 0 from [3,16] to [4,16]
+WARNING: Movement blocked by vertical wall at floor 0 from [4,18] to [3,18]
+WARNING: Movement blocked by vertical wall at floor 1 from [6,11] to [5,11]
+WARNING: Movement blocked by vertical wall at floor 0 from [3,17] to [4,17]
+WARNING: Movement blocked by vertical wall at floor 1 from [6,12] to [5,12]
+ASSUMPTION: Flag accessibility confirmed via BFS pathfinding at [1,6,14]
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player B movement blocked at step 2: wall (pos=[0,2,7], dir=West)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,9,17], dir=East)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,9,17], dir=East)
+WARNING: Player B movement blocked at step 0: wall (pos=[0,0,7], dir=West)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,9,17], dir=East)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,9,17], dir=East)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,9,17], dir=East)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player B movement blocked at step 2: wall (pos=[0,0,2], dir=North)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,9,17], dir=East)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,9,17], dir=East)
+WARNING: Player B movement blocked at step 0: wall (pos=[0,0,0], dir=North)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,9,17], dir=East)
+WARNING: Player A movement blocked at step 1: invalid cell (pos=[0,5,12], dir=North)
+WARNING: Player B movement blocked at step 0: wall (pos=[0,0,0], dir=North)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,9,17], dir=East)
+WARNING: Player A movement blocked at step 1: invalid cell (pos=[0,5,12], dir=North)
+WARNING: Player B movement blocked at step 0: wall (pos=[0,0,0], dir=North)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,9,17], dir=East)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player A movement blocked at step 1: invalid cell (pos=[0,5,12], dir=North)
+WARNING: Player B movement blocked at step 0: wall (pos=[0,0,0], dir=North)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,9,17], dir=East)
+WARNING: Player A movement blocked at step 0: invalid cell (pos=[0,5,11], dir=North)
+WARNING: Movement blocked by vertical wall at floor 0 from [4,17] to [3,17]
+WARNING: Player C movement blocked at step 1: wall (pos=[0,5,17], dir=West)
+WARNING: Player A movement blocked at step 0: invalid cell (pos=[0,5,11], dir=North)
+WARNING: Movement blocked by vertical wall at floor 0 from [4,17] to [3,17]
+WARNING: Player C movement blocked at step 1: wall (pos=[0,5,17], dir=West)
+WARNING: Player A movement blocked at step 0: invalid cell (pos=[0,5,11], dir=North)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player A movement blocked at step 0: invalid cell (pos=[0,5,11], dir=East)
+WARNING: Movement blocked by vertical wall at floor 0 from [4,17] to [3,17]
+WARNING: Player C movement blocked at step 0: wall (pos=[0,4,17], dir=West)
+WARNING: Player A movement blocked at step 0: invalid cell (pos=[0,5,11], dir=East)
+WARNING: Movement blocked by vertical wall at floor 0 from [4,17] to [3,17]
+WARNING: Player C movement blocked at step 0: wall (pos=[0,4,17], dir=West)
+WARNING: Player A movement blocked at step 0: invalid cell (pos=[0,5,11], dir=East)
+WARNING: Movement blocked by vertical wall at floor 0 from [4,17] to [3,17]
+WARNING: Player C movement blocked at step 0: wall (pos=[0,4,17], dir=West)
+WARNING: Player A movement blocked at step 0: invalid cell (pos=[0,5,11], dir=East)
+WARNING: Player B movement blocked at step 1: wall (pos=[0,0,1], dir=North)
+WARNING: Movement blocked by vertical wall at floor 0 from [4,17] to [3,17]
+WARNING: Player C movement blocked at step 0: wall (pos=[0,4,17], dir=West)
+WARNING: Player B movement blocked at step 1: wall (pos=[0,0,1], dir=North)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player B movement blocked at step 1: wall (pos=[0,0,1], dir=North)
+WARNING: Player A movement blocked at step 0: wall (pos=[0,0,11], dir=West)
+WARNING: Player B movement blocked at step 1: wall (pos=[0,0,1], dir=North)
+WARNING: Player A movement blocked at step 0: wall (pos=[0,0,11], dir=West)
+WARNING: Player B movement blocked at step 1: wall (pos=[0,0,1], dir=North)
+WARNING: Player A movement blocked at step 0: wall (pos=[0,0,11], dir=West)
+WARNING: Player B movement blocked at step 1: wall (pos=[0,0,1], dir=North)
+WARNING: Player A movement blocked at step 0: wall (pos=[0,0,11], dir=West)
+WARNING: Player B movement blocked at step 1: wall (pos=[0,0,1], dir=North)
+WARNING: Player C movement blocked at step 1: wall (pos=[0,4,1], dir=North)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player A movement blocked at step 0: wall (pos=[0,0,11], dir=West)
+WARNING: Player B movement blocked at step 1: wall (pos=[0,0,1], dir=North)
+WARNING: Player C movement blocked at step 1: wall (pos=[0,4,1], dir=North)
+WARNING: Player A movement blocked at step 0: wall (pos=[0,0,11], dir=West)
+WARNING: Player B movement blocked at step 1: wall (pos=[0,0,1], dir=North)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,4,0], dir=North)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,4,0], dir=North)
+WARNING: Player A movement blocked at step 3: invalid cell (pos=[0,2,11], dir=East)
+WARNING: Player B movement blocked at step 4: wall (pos=[0,5,1], dir=East)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,4,0], dir=North)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player C movement blocked at step 0: wall (pos=[0,4,0], dir=North)
+WARNING: Player A movement blocked at step 0: invalid cell (pos=[0,5,11], dir=East)
+WARNING: Player B movement blocked at step 1: wall (pos=[0,7,1], dir=North)
+WARNING: Player A movement blocked at step 0: invalid cell (pos=[0,5,11], dir=East)
+WARNING: Player B movement blocked at step 1: wall (pos=[0,7,1], dir=North)
+WARNING: Player A movement blocked at step 0: invalid cell (pos=[0,5,11], dir=East)
+WARNING: Player B movement blocked at step 1: wall (pos=[0,7,1], dir=North)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,9,0], dir=East)
+WARNING: Player A movement blocked at step 0: invalid cell (pos=[0,5,11], dir=East)
+WARNING: Player B movement blocked at step 1: wall (pos=[0,7,1], dir=North)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,9,0], dir=East)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player B movement blocked at step 1: wall (pos=[0,7,1], dir=North)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,9,0], dir=East)
+WARNING: Player B movement blocked at step 1: wall (pos=[0,7,1], dir=North)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,9,0], dir=East)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,9,0], dir=East)
+WARNING: Player A movement blocked at step 4: wall (pos=[0,5,20], dir=South)
+WARNING: Player B movement blocked at step 0: wall (pos=[0,7,0], dir=North)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,9,0], dir=East)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,9,0], dir=East)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player A movement blocked at step 0: wall (pos=[0,5,24], dir=South)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,9,0], dir=East)
+WARNING: Player A movement blocked at step 0: wall (pos=[0,5,24], dir=South)
+WARNING: Player B movement blocked at step 3: invalid cell (pos=[0,7,4], dir=South)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,9,0], dir=East)
+WARNING: Player A movement blocked at step 0: wall (pos=[0,5,24], dir=South)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,9,0], dir=East)
+WARNING: Player B movement blocked at step 2: invalid cell (pos=[0,7,5], dir=South)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,9,0], dir=North)
+WARNING: Player A movement blocked at step 3: wall (pos=[0,3,24], dir=West)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,9,0], dir=North)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player A movement blocked at step 3: wall (pos=[0,3,24], dir=West)
+WARNING: Player B movement blocked at step 0: invalid cell (pos=[0,7,7], dir=South)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,9,0], dir=North)
+WARNING: Player A movement blocked at step 3: wall (pos=[0,3,24], dir=West)
+WARNING: Player B movement blocked at step 0: invalid cell (pos=[0,7,7], dir=South)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,9,0], dir=North)
+WARNING: Player A movement blocked at step 3: wall (pos=[0,3,24], dir=West)
+WARNING: Player B movement blocked at step 0: invalid cell (pos=[0,7,7], dir=South)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,9,0], dir=East)
+WARNING: Player A movement blocked at step 3: wall (pos=[0,3,24], dir=West)
+WARNING: Player B movement blocked at step 0: invalid cell (pos=[0,7,7], dir=South)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,9,0], dir=East)
+WARNING: Player B movement blocked at step 0: invalid cell (pos=[0,7,7], dir=South)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,9,0], dir=East)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player A movement blocked at step 0: wall (pos=[0,0,24], dir=West)
+ASSUMPTION: Player A movement points depleted, transported to Bawana at [0,6,24]
+WARNING: Player B movement blocked at step 0: invalid cell (pos=[0,7,7], dir=South)
+ASSUMPTION: Player B movement points depleted, transported to Bawana at [0,8,22]
+WARNING: Player C movement blocked at step 0: wall (pos=[0,9,0], dir=East)
+WARNING: Player B movement blocked at step 5: wall (pos=[0,9,19], dir=South)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,9,0], dir=East)
+ASSUMPTION: Player C movement points depleted, transported to Bawana at [0,8,23]
+WARNING: Player C movement blocked at step 2: invalid cell (pos=[0,9,19], dir=North)
+WARNING: Player B movement blocked at step 0: invalid cell (pos=[0,5,12], dir=East)
+WARNING: Player C movement blocked at step 2: invalid cell (pos=[0,9,19], dir=North)
+WARNING: Player B movement blocked at step 0: invalid cell (pos=[0,5,12], dir=East)
+WARNING: Player C movement blocked at step 2: invalid cell (pos=[0,9,19], dir=North)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player C movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player A movement blocked at step 1: invalid cell (pos=[0,5,12], dir=North)
+WARNING: Player B movement blocked at step 3: wall (pos=[0,5,21], dir=South)
+WARNING: Player C movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player C movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player C movement blocked at step 1: Bawana entrance restriction (pos=[0,9,17], dir=South)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player B movement blocked at step 3: wall (pos=[0,6,23], dir=East)
+WARNING: Player C movement blocked at step 1: Bawana entrance restriction (pos=[0,9,17], dir=South)
+WARNING: Player B movement blocked at step 3: wall (pos=[0,6,23], dir=East)
+WARNING: Player C movement blocked at step 1: Bawana entrance restriction (pos=[0,9,17], dir=South)
+WARNING: Player A movement blocked at step 2: wall (pos=[0,5,22], dir=South)
+WARNING: Player B movement blocked at step 3: wall (pos=[0,6,23], dir=East)
+WARNING: Player C movement blocked at step 1: Bawana entrance restriction (pos=[0,9,17], dir=South)
+WARNING: Player B movement blocked at step 1: wall (pos=[0,6,23], dir=South)
+WARNING: Player C movement blocked at step 1: Bawana entrance restriction (pos=[0,9,17], dir=South)
+WARNING: Player B movement blocked at step 1: wall (pos=[0,6,23], dir=South)
+WARNING: Player C movement blocked at step 1: Bawana entrance restriction (pos=[0,9,17], dir=South)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player B movement blocked at step 1: wall (pos=[0,6,23], dir=South)
+WARNING: Player C movement blocked at step 1: Bawana entrance restriction (pos=[0,9,17], dir=South)
+WARNING: Player B movement blocked at step 1: wall (pos=[0,6,23], dir=South)
+WARNING: Player C movement blocked at step 0: Bawana entrance restriction (pos=[0,9,18], dir=South)
+WARNING: Player A movement blocked at step 1: wall (pos=[1,5,1], dir=North)
+WARNING: Player B movement blocked at step 0: wall (pos=[0,6,24], dir=South)
+WARNING: Player C movement blocked at step 0: Bawana entrance restriction (pos=[0,9,18], dir=South)
+WARNING: Player A movement blocked at step 1: wall (pos=[1,5,1], dir=North)
+WARNING: Player B movement blocked at step 0: wall (pos=[0,6,24], dir=South)
+ASSUMPTION: Player B movement points depleted, transported to Bawana at [0,7,21]
+WARNING: Player C movement blocked at step 0: Bawana entrance restriction (pos=[0,9,18], dir=South)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player A movement blocked at step 1: wall (pos=[1,5,1], dir=North)
+WARNING: Player B movement blocked at step 2: invalid cell (pos=[0,9,19], dir=North)
+WARNING: Player C movement blocked at step 0: Bawana entrance restriction (pos=[0,9,18], dir=South)
+WARNING: Player B movement blocked at step 2: invalid cell (pos=[0,9,19], dir=North)
+WARNING: Player C movement blocked at step 0: Bawana entrance restriction (pos=[0,9,18], dir=South)
+WARNING: Player A movement blocked at step 0: wall (pos=[1,5,0], dir=North)
+WARNING: Player B movement blocked at step 2: invalid cell (pos=[0,9,19], dir=North)
+WARNING: Player C movement blocked at step 0: Bawana entrance restriction (pos=[0,9,18], dir=South)
+WARNING: Player A movement blocked at step 0: wall (pos=[1,5,0], dir=North)
+WARNING: Player B movement blocked at step 2: invalid cell (pos=[0,9,19], dir=North)
+WARNING: Player C movement blocked at step 0: Bawana entrance restriction (pos=[0,9,18], dir=South)
+WARNING: Player A movement blocked at step 0: wall (pos=[1,5,0], dir=North)
+WARNING: Player B movement blocked at step 2: invalid cell (pos=[0,9,19], dir=North)
+WARNING: Player C movement blocked at step 0: Bawana entrance restriction (pos=[0,9,18], dir=South)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player B movement blocked at step 2: invalid cell (pos=[0,9,19], dir=North)
+WARNING: Player C movement blocked at step 0: Bawana entrance restriction (pos=[0,9,18], dir=South)
+WARNING: Player B movement blocked at step 1: invalid cell (pos=[0,9,18], dir=North)
+WARNING: Player A movement blocked at step 1: invalid cell (pos=[1,5,8], dir=South)
+WARNING: Player B movement blocked at step 1: invalid cell (pos=[0,9,18], dir=North)
+WARNING: Player A movement blocked at step 1: invalid cell (pos=[1,5,8], dir=South)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Movement blocked by vertical wall at floor 0 from [4,18] to [3,18]
+WARNING: Player B movement blocked at step 2: wall (pos=[0,6,18], dir=West)
+WARNING: Player C movement blocked at step 1: invalid cell (pos=[0,5,12], dir=North)
+WARNING: Movement blocked by vertical wall at floor 0 from [4,18] to [3,18]
+WARNING: Player B movement blocked at step 2: wall (pos=[0,6,18], dir=West)
+WARNING: Player C movement blocked at step 1: invalid cell (pos=[0,5,12], dir=North)
+WARNING: Movement blocked by vertical wall at floor 0 from [4,18] to [3,18]
+WARNING: Player B movement blocked at step 2: wall (pos=[0,6,18], dir=West)
+WARNING: Player C movement blocked at step 1: invalid cell (pos=[0,5,12], dir=North)
+ASSUMPTION: Player A movement points depleted, transported to Bawana at [0,7,24]
+WARNING: Movement blocked by vertical wall at floor 0 from [4,18] to [3,18]
+WARNING: Player B movement blocked at step 2: wall (pos=[0,6,18], dir=West)
+WARNING: Player C movement blocked at step 1: invalid cell (pos=[0,5,12], dir=North)
+WARNING: Movement blocked by vertical wall at floor 0 from [4,18] to [3,18]
+WARNING: Player B movement blocked at step 2: wall (pos=[0,6,18], dir=West)
+WARNING: Player C movement blocked at step 1: invalid cell (pos=[0,5,12], dir=North)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player C movement blocked at step 1: invalid cell (pos=[0,5,12], dir=North)
+WARNING: Movement blocked by vertical wall at floor 0 from [4,18] to [3,18]
+WARNING: Player B movement blocked at step 0: wall (pos=[0,4,18], dir=West)
+WARNING: Player C movement blocked at step 1: invalid cell (pos=[0,5,12], dir=North)
+WARNING: Player A movement blocked at step 2: invalid cell (pos=[0,9,19], dir=North)
+WARNING: Player C movement blocked at step 5: wall (pos=[0,5,12], dir=West)
+WARNING: Player A movement blocked at step 2: invalid cell (pos=[0,9,19], dir=North)
+WARNING: Player A movement blocked at step 2: invalid cell (pos=[0,9,19], dir=North)
+WARNING: Player B movement blocked at step 0: wall (pos=[0,4,24], dir=South)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player B movement blocked at step 0: wall (pos=[0,4,24], dir=South)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,0,12], dir=West)
+WARNING: Player A movement blocked at step 1: Bawana entrance restriction (pos=[0,9,17], dir=South)
+WARNING: Player C movement blocked at step 5: invalid cell (pos=[0,0,12], dir=East)
+WARNING: Player A movement blocked at step 1: Bawana entrance restriction (pos=[0,9,17], dir=South)
+WARNING: Player A movement blocked at step 1: Bawana entrance restriction (pos=[0,9,17], dir=South)
+WARNING: Player C movement blocked at step 1: invalid cell (pos=[0,4,12], dir=East)
+WARNING: Player A movement blocked at step 1: Bawana entrance restriction (pos=[0,9,17], dir=South)
+WARNING: Player C movement blocked at step 1: invalid cell (pos=[0,4,12], dir=East)
+ASSUMPTION: Player C movement points depleted, transported to Bawana at [0,8,22]
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player A movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player C movement blocked at step 2: invalid cell (pos=[0,9,19], dir=North)
+WARNING: Player A movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player A movement blocked at step 1: invalid cell (pos=[0,5,12], dir=North)
+WARNING: Player B movement blocked at step 2: wall (pos=[0,4,2], dir=North)
+WARNING: Movement blocked by vertical wall at floor 0 from [4,17] to [3,17]
+WARNING: Player C movement blocked at step 0: wall (pos=[0,4,17], dir=West)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player A movement blocked at step 2: wall (pos=[0,2,12], dir=West)
+WARNING: Player B movement blocked at step 0: wall (pos=[0,4,0], dir=North)
+WARNING: Player A movement blocked at step 2: wall (pos=[0,2,12], dir=West)
+WARNING: Player B movement blocked at step 0: wall (pos=[0,4,0], dir=North)
+WARNING: Player B movement blocked at step 0: wall (pos=[0,4,0], dir=North)
+WARNING: Player A movement blocked at step 0: wall (pos=[0,0,12], dir=West)
+WARNING: Player A movement blocked at step 0: wall (pos=[0,0,12], dir=West)
+WARNING: Player B movement blocked at step 0: wall (pos=[0,0,0], dir=West)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player A movement blocked at step 0: wall (pos=[0,0,12], dir=West)
+WARNING: Player B movement blocked at step 0: wall (pos=[0,0,0], dir=West)
+WARNING: Player A movement blocked at step 0: wall (pos=[0,0,12], dir=West)
+WARNING: Player B movement blocked at step 0: wall (pos=[0,0,0], dir=West)
+WARNING: Player B movement blocked at step 1: wall (pos=[0,8,0], dir=East)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,0,20], dir=West)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player A movement blocked at step 2: wall (pos=[0,0,2], dir=North)
+WARNING: Player B movement blocked at step 1: wall (pos=[0,8,0], dir=East)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,0,20], dir=West)
+WARNING: Player B movement blocked at step 1: wall (pos=[0,8,0], dir=East)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,0,20], dir=West)
+ASSUMPTION: Player A movement points depleted, transported to Bawana at [0,7,22]
+WARNING: Player C movement blocked at step 0: wall (pos=[0,0,20], dir=West)
+WARNING: Player A movement blocked at step 2: invalid cell (pos=[0,9,19], dir=North)
+WARNING: Player B movement blocked at step 0: wall (pos=[0,9,0], dir=East)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,0,20], dir=West)
+WARNING: Player A movement blocked at step 2: invalid cell (pos=[0,9,19], dir=North)
+WARNING: Player B movement blocked at step 0: wall (pos=[0,9,0], dir=East)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,0,20], dir=West)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player A movement blocked at step 2: invalid cell (pos=[0,9,19], dir=North)
+WARNING: Player A movement blocked at step 2: invalid cell (pos=[0,9,19], dir=North)
+WARNING: Player A movement blocked at step 2: invalid cell (pos=[0,9,19], dir=North)
+WARNING: Player B movement blocked at step 1: invalid cell (pos=[0,9,6], dir=South)
+WARNING: Player B movement blocked at step 1: invalid cell (pos=[0,9,6], dir=South)
+WARNING: Player A movement blocked at step 0: wall (pos=[0,9,17], dir=East)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,0,10], dir=West)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player A movement blocked at step 0: wall (pos=[0,9,17], dir=East)
+WARNING: Player B movement blocked at step 3: wall (pos=[0,9,3], dir=North)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,0,10], dir=West)
+WARNING: Player A movement blocked at step 0: wall (pos=[0,9,17], dir=East)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,0,10], dir=West)
+WARNING: Player A movement blocked at step 0: wall (pos=[0,9,17], dir=East)
+WARNING: Player B movement blocked at step 0: wall (pos=[0,9,0], dir=North)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,0,10], dir=West)
+WARNING: Player B movement blocked at step 0: wall (pos=[0,9,0], dir=North)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,0,10], dir=West)
+WARNING: Movement blocked by vertical wall at floor 0 from [4,17] to [3,17]
+WARNING: Player A movement blocked at step 0: wall (pos=[0,4,17], dir=West)
+WARNING: Player B movement blocked at step 0: wall (pos=[0,9,0], dir=North)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,0,10], dir=West)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Movement blocked by vertical wall at floor 0 from [4,17] to [3,17]
+WARNING: Player A movement blocked at step 0: wall (pos=[0,4,17], dir=West)
+WARNING: Player B movement blocked at step 0: wall (pos=[0,9,0], dir=North)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,0,10], dir=West)
+WARNING: Movement blocked by vertical wall at floor 0 from [4,17] to [3,17]
+WARNING: Player A movement blocked at step 0: wall (pos=[0,4,17], dir=West)
+WARNING: Player B movement blocked at step 0: wall (pos=[0,9,0], dir=North)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,0,10], dir=West)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,0,10], dir=West)
+ASSUMPTION: Player C movement points depleted, transported to Bawana at [0,7,23]
+WARNING: Player C movement blocked at step 2: invalid cell (pos=[0,9,19], dir=North)
+WARNING: Player B movement blocked at step 1: wall (pos=[0,1,0], dir=West)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player B movement blocked at step 1: wall (pos=[0,1,0], dir=West)
+WARNING: Player C movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player B movement blocked at step 1: wall (pos=[0,1,0], dir=West)
+WARNING: Player C movement blocked at step 1: Bawana entrance restriction (pos=[0,9,17], dir=South)
+WARNING: Player A movement blocked at step 2: wall (pos=[0,4,2], dir=North)
+WARNING: Player B movement blocked at step 1: wall (pos=[0,1,0], dir=West)
+WARNING: Player C movement blocked at step 1: Bawana entrance restriction (pos=[0,9,17], dir=South)
+WARNING: Player A movement blocked at step 2: wall (pos=[0,4,2], dir=North)
+WARNING: Player B movement blocked at step 1: wall (pos=[0,1,0], dir=West)
+WARNING: Player C movement blocked at step 1: Bawana entrance restriction (pos=[0,9,17], dir=South)
+WARNING: Player B movement blocked at step 1: wall (pos=[0,1,0], dir=West)
+WARNING: Player C movement blocked at step 1: Bawana entrance restriction (pos=[0,9,17], dir=South)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player C movement blocked at step 1: Bawana entrance restriction (pos=[0,9,17], dir=South)
+WARNING: Player C movement blocked at step 1: Bawana entrance restriction (pos=[0,9,17], dir=South)
+WARNING: Player B movement blocked at step 0: wall (pos=[0,9,0], dir=East)
+WARNING: Player C movement blocked at step 1: Bawana entrance restriction (pos=[0,9,17], dir=South)
+WARNING: Player A movement blocked at step 0: wall (pos=[0,0,0], dir=West)
+WARNING: Player B movement blocked at step 0: wall (pos=[0,9,0], dir=East)
+WARNING: Player C movement blocked at step 1: Bawana entrance restriction (pos=[0,9,17], dir=South)
+WARNING: Player A movement blocked at step 0: wall (pos=[0,0,0], dir=West)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,9,17], dir=East)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player A movement blocked at step 0: wall (pos=[0,0,0], dir=West)
+WARNING: Player B movement blocked at step 3: wall (pos=[0,3,0], dir=West)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,9,17], dir=East)
+WARNING: Player A movement blocked at step 0: wall (pos=[0,0,0], dir=West)
+WARNING: Player B movement blocked at step 3: wall (pos=[0,3,0], dir=West)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,9,17], dir=East)
+WARNING: Player A movement blocked at step 0: wall (pos=[0,0,0], dir=West)
+ASSUMPTION: Player A movement points depleted, transported to Bawana at [0,8,24]
+WARNING: Player B movement blocked at step 3: wall (pos=[0,3,0], dir=West)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,9,17], dir=East)
+WARNING: Player A movement blocked at step 2: invalid cell (pos=[0,9,19], dir=North)
+WARNING: Player C movement blocked at step 0: wall (pos=[0,9,17], dir=East)
+WARNING: Player B movement blocked at step 2: wall (pos=[0,7,0], dir=East)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player A movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player B movement blocked at step 2: wall (pos=[0,7,0], dir=East)
+WARNING: Player A movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player A movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player B movement blocked at step 0: wall (pos=[0,9,0], dir=East)
+ASSUMPTION: Player B movement points depleted, transported to Bawana at [0,8,21]
+WARNING: Player A movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player B movement blocked at step 2: invalid cell (pos=[0,9,19], dir=North)
+WARNING: Player A movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player B movement blocked at step 5: wall (pos=[0,9,19], dir=South)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player A movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player A movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player A movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player B movement blocked at step 0: wall (pos=[0,9,24], dir=South)
+WARNING: Player A movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player B movement blocked at step 0: wall (pos=[0,9,24], dir=South)
+WARNING: Player A movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player B movement blocked at step 0: wall (pos=[0,9,24], dir=South)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player B movement blocked at step 0: wall (pos=[0,9,24], dir=East)
+WARNING: Player C movement blocked at step 2: invalid cell (pos=[1,5,10], dir=West)
+WARNING: Movement blocked by vertical wall at floor 0 from [4,17] to [3,17]
+WARNING: Player A movement blocked at step 1: wall (pos=[0,5,17], dir=West)
+WARNING: Player B movement blocked at step 0: wall (pos=[0,9,24], dir=East)
+WARNING: Player C movement blocked at step 2: invalid cell (pos=[1,5,10], dir=West)
+WARNING: Movement blocked by vertical wall at floor 0 from [4,17] to [3,17]
+WARNING: Player A movement blocked at step 1: wall (pos=[0,5,17], dir=West)
+WARNING: Player B movement blocked at step 0: wall (pos=[0,9,24], dir=East)
+WARNING: Movement blocked by vertical wall at floor 0 from [4,17] to [3,17]
+WARNING: Player A movement blocked at step 1: wall (pos=[0,5,17], dir=West)
+WARNING: Player B movement blocked at step 0: wall (pos=[0,9,24], dir=East)
+WARNING: Player C movement blocked at step 1: invalid cell (pos=[1,4,10], dir=West)
+WARNING: Player B movement blocked at step 0: wall (pos=[0,9,24], dir=South)
+WARNING: Player C movement blocked at step 1: invalid cell (pos=[1,4,10], dir=West)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player A movement blocked at step 1: wall (pos=[0,5,23], dir=South)
+WARNING: Player B movement blocked at step 0: wall (pos=[0,9,24], dir=South)
+WARNING: Player A movement blocked at step 1: wall (pos=[0,5,23], dir=South)
+WARNING: Player B movement blocked at step 0: wall (pos=[0,9,24], dir=South)
+WARNING: Player C movement blocked at step 0: invalid cell (pos=[1,3,10], dir=West)
+WARNING: Player B movement blocked at step 0: wall (pos=[0,9,24], dir=South)
+WARNING: Player C movement blocked at step 0: invalid cell (pos=[1,3,10], dir=West)
+WARNING: Player A movement blocked at step 0: wall (pos=[0,5,24], dir=South)
+WARNING: Player C movement blocked at step 0: invalid cell (pos=[1,3,10], dir=West)
+WARNING: Player A movement blocked at step 0: wall (pos=[0,5,24], dir=South)
+WARNING: Player B movement blocked at step 2: Bawana entrance restriction (pos=[0,9,22], dir=North)
+WARNING: Player C movement blocked at step 0: invalid cell (pos=[1,3,10], dir=West)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player A movement blocked at step 0: wall (pos=[0,5,24], dir=South)
+WARNING: Player C movement blocked at step 0: invalid cell (pos=[1,3,10], dir=West)
+WARNING: Player A movement blocked at step 0: wall (pos=[0,5,24], dir=South)
+WARNING: Player B movement blocked at step 0: Bawana entrance restriction (pos=[0,9,20], dir=North)
+WARNING: Player C movement blocked at step 0: invalid cell (pos=[1,3,10], dir=West)
+WARNING: Player B movement blocked at step 0: Bawana entrance restriction (pos=[0,9,20], dir=North)
+WARNING: Player C movement blocked at step 0: invalid cell (pos=[1,3,10], dir=West)
+WARNING: Player B movement blocked at step 0: Bawana entrance restriction (pos=[0,9,20], dir=North)
+WARNING: Player C movement blocked at step 0: invalid cell (pos=[1,3,10], dir=West)
+ASSUMPTION: Player A movement points depleted, transported to Bawana at [0,8,21]
+WARNING: Player B movement blocked at step 0: Bawana entrance restriction (pos=[0,9,20], dir=North)
+WARNING: Player C movement blocked at step 0: invalid cell (pos=[1,3,10], dir=West)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player A movement blocked at step 0: wall (pos=[0,9,19], dir=East)
+WARNING: Player B movement blocked at step 0: Bawana entrance restriction (pos=[0,9,20], dir=North)
+WARNING: Player C movement blocked at step 0: invalid cell (pos=[1,3,10], dir=West)
+WARNING: Player A movement blocked at step 2: invalid cell (pos=[0,9,19], dir=North)
+WARNING: Player C movement blocked at step 0: invalid cell (pos=[1,3,10], dir=West)
+WARNING: Player A movement blocked at step 0: wall (pos=[0,9,19], dir=East)
+WARNING: Player C movement blocked at step 0: invalid cell (pos=[1,3,10], dir=West)
+WARNING: Player A movement blocked at step 2: invalid cell (pos=[0,9,19], dir=North)
+WARNING: Player C movement blocked at step 0: invalid cell (pos=[1,3,10], dir=West)
+WARNING: Player A movement blocked at step 2: invalid cell (pos=[0,9,19], dir=North)
+WARNING: Player B movement blocked at step 2: wall (pos=[0,2,20], dir=West)
+WARNING: Player C movement blocked at step 0: invalid cell (pos=[1,3,10], dir=West)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player A movement blocked at step 2: invalid cell (pos=[0,9,19], dir=North)
+WARNING: Player A movement blocked at step 2: invalid cell (pos=[0,9,19], dir=North)
+WARNING: Player A movement blocked at step 2: invalid cell (pos=[0,9,19], dir=North)
+WARNING: Player A movement blocked at step 2: invalid cell (pos=[0,9,19], dir=North)
+WARNING: Player C movement blocked at step 3: wall (pos=[1,3,21], dir=South)
+WARNING: Player A movement blocked at step 2: invalid cell (pos=[0,9,19], dir=North)
+WARNING: Player B movement blocked at step 0: wall (pos=[0,2,0], dir=North)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player A movement blocked at step 2: invalid cell (pos=[0,9,19], dir=North)
+WARNING: Player B movement blocked at step 0: wall (pos=[0,2,0], dir=North)
+WARNING: Player B movement blocked at step 0: wall (pos=[0,2,0], dir=North)
+ASSUMPTION: Player B movement points depleted, transported to Bawana at [0,7,22]
+WARNING: Player A movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player B movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player C movement blocked at step 1: Bawana entrance restriction (pos=[1,9,21], dir=North)
+WARNING: Player B movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player C movement blocked at step 1: Bawana entrance restriction (pos=[1,9,21], dir=North)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player A movement blocked at step 1: invalid cell (pos=[0,5,12], dir=North)
+WARNING: Player B movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player C movement blocked at step 1: Bawana entrance restriction (pos=[1,9,21], dir=North)
+WARNING: Player A movement blocked at step 1: invalid cell (pos=[0,5,12], dir=North)
+WARNING: Player B movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player C movement blocked at step 1: Bawana entrance restriction (pos=[1,9,21], dir=North)
+WARNING: Player A movement blocked at step 1: invalid cell (pos=[0,5,12], dir=North)
+WARNING: Player B movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player A movement blocked at step 1: invalid cell (pos=[0,5,12], dir=North)
+WARNING: Player B movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player C movement blocked at step 4: wall (pos=[1,4,21], dir=West)
+WARNING: Player A movement blocked at step 1: invalid cell (pos=[0,5,12], dir=North)
+WARNING: Player B movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player B movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player C movement blocked at step 2: wall (pos=[1,2,21], dir=West)
+WARNING: Player B movement blocked at step 0: wall (pos=[0,9,17], dir=East)
+WARNING: Player C movement blocked at step 2: wall (pos=[1,2,21], dir=West)
+WARNING: Player B movement blocked at step 0: wall (pos=[0,9,17], dir=East)
+WARNING: Player C movement blocked at step 2: wall (pos=[1,2,21], dir=West)
+WARNING: Player A movement blocked at step 0: wall (pos=[1,5,0], dir=North)
+WARNING: Player B movement blocked at step 0: wall (pos=[0,9,17], dir=East)
+WARNING: Player A movement blocked at step 0: wall (pos=[1,5,0], dir=North)
+WARNING: Player B movement blocked at step 0: wall (pos=[0,9,17], dir=East)
+WARNING: Player C movement blocked at step 0: wall (pos=[1,0,21], dir=West)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player B movement blocked at step 1: Bawana entrance restriction (pos=[0,9,17], dir=South)
+WARNING: Player C movement blocked at step 0: wall (pos=[1,0,21], dir=West)
+ASSUMPTION: Player A movement points depleted, transported to Bawana at [0,7,22]
+WARNING: Player B movement blocked at step 1: Bawana entrance restriction (pos=[0,9,17], dir=South)
+WARNING: Player C movement blocked at step 0: wall (pos=[1,0,21], dir=West)
+WARNING: Player A movement blocked at step 2: invalid cell (pos=[0,9,19], dir=North)
+WARNING: Player B movement blocked at step 1: Bawana entrance restriction (pos=[0,9,17], dir=South)
+WARNING: Player C movement blocked at step 0: wall (pos=[1,0,21], dir=West)
+WARNING: Player A movement blocked at step 2: invalid cell (pos=[0,9,19], dir=North)
+WARNING: Player C movement blocked at step 0: wall (pos=[1,0,21], dir=West)
+WARNING: Player A movement blocked at step 2: invalid cell (pos=[0,9,19], dir=North)
+WARNING: Player B movement blocked at step 1: invalid cell (pos=[0,9,18], dir=North)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player A movement blocked at step 2: invalid cell (pos=[0,9,19], dir=North)
+WARNING: Player B movement blocked at step 1: invalid cell (pos=[0,9,18], dir=North)
+WARNING: Player C movement blocked at step 2: invalid cell (pos=[1,0,19], dir=North)
+WARNING: Player A movement blocked at step 2: invalid cell (pos=[0,9,19], dir=North)
+WARNING: Player B movement blocked at step 1: invalid cell (pos=[0,9,18], dir=North)
+WARNING: Player B movement blocked at step 1: invalid cell (pos=[0,9,18], dir=North)
+WARNING: Player C movement blocked at step 1: invalid cell (pos=[1,0,18], dir=North)
+WARNING: Player A movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player B movement blocked at step 1: invalid cell (pos=[0,9,18], dir=North)
+WARNING: Player C movement blocked at step 0: wall (pos=[1,0,18], dir=West)
+WARNING: Player A movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player B movement blocked at step 1: invalid cell (pos=[0,9,18], dir=North)
+WARNING: Player C movement blocked at step 0: wall (pos=[1,0,18], dir=West)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player A movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player B movement blocked at step 1: invalid cell (pos=[0,9,18], dir=North)
+WARNING: Player C movement blocked at step 0: wall (pos=[1,0,18], dir=West)
+WARNING: Player A movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+ASSUMPTION: Player B movement points depleted, transported to Bawana at [0,7,22]
+WARNING: Player C movement blocked at step 0: wall (pos=[1,0,18], dir=West)
+WARNING: Player A movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player B movement blocked at step 2: invalid cell (pos=[0,9,19], dir=North)
+WARNING: Player C movement blocked at step 0: wall (pos=[1,0,18], dir=West)
+WARNING: Player A movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player B movement blocked at step 2: invalid cell (pos=[0,9,19], dir=North)
+WARNING: Player C movement blocked at step 0: wall (pos=[1,0,18], dir=West)
+WARNING: Player A movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player B movement blocked at step 2: invalid cell (pos=[0,9,19], dir=North)
+WARNING: Player C movement blocked at step 0: wall (pos=[1,0,18], dir=West)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player A movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player B movement blocked at step 2: invalid cell (pos=[0,9,19], dir=North)
+WARNING: Player C movement blocked at step 0: wall (pos=[1,0,18], dir=West)
+WARNING: Player A movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player B movement blocked at step 2: invalid cell (pos=[0,9,19], dir=North)
+WARNING: Player C movement blocked at step 0: wall (pos=[1,0,18], dir=West)
+WARNING: Player A movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player C movement blocked at step 0: wall (pos=[1,0,18], dir=West)
+WARNING: Player A movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player C movement blocked at step 0: wall (pos=[1,0,18], dir=West)
+WARNING: Player B movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player C movement blocked at step 0: wall (pos=[1,0,18], dir=West)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player B movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player C movement blocked at step 0: wall (pos=[1,0,18], dir=West)
+WARNING: Player B movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player C movement blocked at step 0: wall (pos=[1,0,18], dir=West)
+WARNING: Player B movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player C movement blocked at step 0: wall (pos=[1,0,18], dir=West)
+WARNING: Player B movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player C movement blocked at step 0: wall (pos=[1,0,18], dir=West)
+WARNING: Player B movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player B movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player C movement blocked at step 0: invalid cell (pos=[1,0,17], dir=North)
+ASSUMPTION: Player C movement points depleted, transported to Bawana at [0,8,23]
+WARNING: Player B movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player B movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player C movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player C movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+ASSUMPTION: Stair directions updated after 5 rounds.
+ASSUMPTION: Player A movement points depleted, transported to Bawana at [0,6,22]
+WARNING: Player C movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player A movement blocked at step 2: invalid cell (pos=[0,9,19], dir=North)
+WARNING: Player C movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player A movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player A movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player A movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player B movement blocked at step 1: invalid cell (pos=[0,5,12], dir=North)
+WARNING: Movement blocked by vertical wall at floor 0 from [4,17] to [3,17]
+WARNING: Player A movement blocked at step 1: wall (pos=[0,5,17], dir=West)
+WARNING: Player B movement blocked at step 0: wall (pos=[0,0,12], dir=West)
+WARNING: Player C movement blocked at step 1: invalid cell (pos=[0,5,12], dir=North)
+WARNING: Movement blocked by vertical wall at floor 0 from [4,17] to [3,17]
+WARNING: Player A movement blocked at step 1: wall (pos=[0,5,17], dir=West)
+WARNING: Player B movement blocked at step 0: wall (pos=[0,0,12], dir=West)
+WARNING: Player C movement blocked at step 1: invalid cell (pos=[0,5,12], dir=North)
+ASSUMPTION: Player C movement points depleted, transported to Bawana at [0,7,24]
+WARNING: Movement blocked by vertical wall at floor 0 from [4,17] to [3,17]
+WARNING: Player A movement blocked at step 1: wall (pos=[0,5,17], dir=West)
+WARNING: Player B movement blocked at step 0: wall (pos=[0,0,12], dir=West)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Movement blocked by vertical wall at floor 0 from [4,17] to [3,17]
+WARNING: Player A movement blocked at step 1: wall (pos=[0,5,17], dir=West)
+WARNING: Movement blocked by vertical wall at floor 0 from [4,17] to [3,17]
+WARNING: Player A movement blocked at step 1: wall (pos=[0,5,17], dir=West)
+WARNING: Movement blocked by vertical wall at floor 0 from [4,17] to [3,17]
+WARNING: Player A movement blocked at step 1: wall (pos=[0,5,17], dir=West)
+WARNING: Player B movement blocked at step 1: invalid cell (pos=[0,4,12], dir=East)
+WARNING: Movement blocked by vertical wall at floor 0 from [4,17] to [3,17]
+WARNING: Player A movement blocked at step 1: wall (pos=[0,5,17], dir=West)
+WARNING: Player B movement blocked at step 1: invalid cell (pos=[0,4,12], dir=East)
+WARNING: Player B movement blocked at step 1: invalid cell (pos=[0,4,12], dir=East)
+WARNING: Player C movement blocked at step 1: Bawana entrance restriction (pos=[0,9,17], dir=South)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player A movement blocked at step 2: wall (pos=[0,5,22], dir=South)
+WARNING: Player C movement blocked at step 1: Bawana entrance restriction (pos=[0,9,17], dir=South)
+WARNING: Player A movement blocked at step 2: wall (pos=[0,5,22], dir=South)
+WARNING: Player B movement blocked at step 0: invalid cell (pos=[0,5,12], dir=East)
+ASSUMPTION: Player B movement points depleted, transported to Bawana at [0,6,22]
+ASSUMPTION: Player A movement points depleted, transported to Bawana at [0,8,23]
+WARNING: Player C movement blocked at step 0: Bawana entrance restriction (pos=[0,9,18], dir=South)
+WARNING: Player A movement blocked at step 2: invalid cell (pos=[0,9,19], dir=North)
+WARNING: Player C movement blocked at step 0: Bawana entrance restriction (pos=[0,9,18], dir=South)
+WARNING: Player C movement blocked at step 0: Bawana entrance restriction (pos=[0,9,18], dir=South)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player A movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player C movement blocked at step 0: Bawana entrance restriction (pos=[0,9,18], dir=South)
+WARNING: Player A movement blocked at step 0: invalid cell (pos=[0,9,17], dir=North)
+WARNING: Player C movement blocked at step 0: Bawana entrance restriction (pos=[0,9,18], dir=South)
+WARNING: Player A movement blocked at step 0: wall (pos=[0,9,17], dir=East)
+WARNING: Player C movement blocked at step 0: Bawana entrance restriction (pos=[0,9,18], dir=South)
+WARNING: Player A movement blocked at step 0: wall (pos=[0,9,17], dir=East)
+WARNING: Player C movement blocked at step 0: Bawana entrance restriction (pos=[0,9,18], dir=South)
+WARNING: Player A movement blocked at step 0: wall (pos=[0,9,17], dir=East)
+WARNING: Player C movement blocked at step 0: Bawana entrance restriction (pos=[0,9,18], dir=South)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player A movement blocked at step 0: wall (pos=[0,9,17], dir=East)
+WARNING: Player C movement blocked at step 0: Bawana entrance restriction (pos=[0,9,18], dir=South)
+WARNING: Player C movement blocked at step 0: Bawana entrance restriction (pos=[0,9,18], dir=South)
+WARNING: Movement blocked by vertical wall at floor 0 from [4,17] to [3,17]
+WARNING: Player A movement blocked at step 3: wall (pos=[0,7,17], dir=West)
+WARNING: Player B movement blocked at step 1: invalid cell (pos=[0,5,12], dir=North)
+WARNING: Player C movement blocked at step 0: Bawana entrance restriction (pos=[0,9,18], dir=South)
+WARNING: Movement blocked by vertical wall at floor 0 from [4,17] to [3,17]
+WARNING: Player A movement blocked at step 3: wall (pos=[0,7,17], dir=West)
+WARNING: Player B movement blocked at step 1: invalid cell (pos=[0,5,12], dir=North)
+WARNING: Player C movement blocked at step 0: Bawana entrance restriction (pos=[0,9,18], dir=South)
+WARNING: Movement blocked by vertical wall at floor 0 from [4,17] to [3,17]
+WARNING: Player A movement blocked at step 3: wall (pos=[0,7,17], dir=West)
+WARNING: Player B movement blocked at step 1: invalid cell (pos=[0,5,12], dir=North)
+WARNING: Player C movement blocked at step 0: Bawana entrance restriction (pos=[0,9,18], dir=South)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Movement blocked by vertical wall at floor 0 from [4,17] to [3,17]
+WARNING: Player A movement blocked at step 3: wall (pos=[0,7,17], dir=West)
+WARNING: Player B movement blocked at step 1: invalid cell (pos=[0,5,12], dir=North)
+WARNING: Player C movement blocked at step 0: Bawana entrance restriction (pos=[0,9,18], dir=South)
+WARNING: Player B movement blocked at step 1: invalid cell (pos=[0,5,12], dir=North)
+WARNING: Player C movement blocked at step 0: Bawana entrance restriction (pos=[0,9,18], dir=South)
+WARNING: Movement blocked by vertical wall at floor 0 from [4,17] to [3,17]
+WARNING: Player A movement blocked at step 0: wall (pos=[0,4,17], dir=West)
+WARNING: Player B movement blocked at step 1: invalid cell (pos=[0,5,12], dir=North)
+WARNING: Player C movement blocked at step 0: Bawana entrance restriction (pos=[0,9,18], dir=South)
+WARNING: Movement blocked by vertical wall at floor 0 from [4,17] to [3,17]
+WARNING: Player A movement blocked at step 0: wall (pos=[0,4,17], dir=West)
+WARNING: Player B movement blocked at step 1: invalid cell (pos=[0,5,12], dir=North)
+WARNING: Player C movement blocked at step 0: Bawana entrance restriction (pos=[0,9,18], dir=South)
+ASSUMPTION: Player A movement points depleted, transported to Bawana at [0,6,24]
+WARNING: Player B movement blocked at step 1: invalid cell (pos=[0,5,12], dir=North)
+WARNING: Player C movement blocked at step 0: Bawana entrance restriction (pos=[0,9,18], dir=South)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player A movement blocked at step 1: invalid cell (pos=[0,9,18], dir=North)
+WARNING: Player A movement blocked at step 1: invalid cell (pos=[0,9,18], dir=North)
+WARNING: Player A movement blocked at step 0: wall (pos=[0,9,18], dir=East)
+WARNING: Player A movement blocked at step 0: wall (pos=[0,9,18], dir=East)
+WARNING: Player B movement blocked at step 0: wall (pos=[1,5,0], dir=North)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player A movement blocked at step 0: wall (pos=[0,9,18], dir=East)
+WARNING: Player B movement blocked at step 0: wall (pos=[1,5,0], dir=North)
+WARNING: Player A movement blocked at step 0: wall (pos=[0,9,18], dir=East)
+WARNING: Player B movement blocked at step 0: wall (pos=[1,5,0], dir=North)
+WARNING: Movement blocked by vertical wall at floor 0 from [4,18] to [3,18]
+WARNING: Player A movement blocked at step 5: wall (pos=[0,9,18], dir=West)
+WARNING: Movement blocked by vertical wall at floor 0 from [4,18] to [3,18]
+WARNING: Player A movement blocked at step 1: wall (pos=[0,5,18], dir=West)
+WARNING: Player B movement blocked at step 1: wall (pos=[1,1,0], dir=West)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player B movement blocked at step 1: wall (pos=[1,1,0], dir=West)
+WARNING: Player B movement blocked at step 1: wall (pos=[1,1,0], dir=West)
+WARNING: Player B movement blocked at step 0: wall (pos=[1,0,0], dir=West)
+WARNING: Player A movement blocked at step 1: wall (pos=[0,4,23], dir=South)
+ASSUMPTION: Player A movement points depleted, transported to Bawana at [0,8,21]
+WARNING: Player B movement blocked at step 0: wall (pos=[1,0,0], dir=West)
+ASSUMPTION: Stair directions updated after 5 rounds.
+WARNING: Player B movement blocked at step 0: wall (pos=[1,0,0], dir=West)
+WARNING: Player B movement blocked at step 0: wall (pos=[1,0,0], dir=West)
